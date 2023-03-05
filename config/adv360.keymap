@@ -39,11 +39,11 @@
 
         default_layer {
             bindings = <
-     &kp GRAVE          &kp N1      &kp N2          &kp N3   &kp N4  &kp N5                         &tog 1                                                                         &kp LA(PRINTSCREEN)  &kp N6   &kp N7          &kp N8    &kp N9    &kp N0      &kp MINUS
-       &kp TAB           &kp Q       &kp W           &kp E    &kp R   &kp T                   &kp LS(HOME)                                                                                 &kp LS(END)   &kp Y    &kp U           &kp I     &kp O     &kp P      &kp EQUAL
- &mt LCTRL ESC           &kp A       &kp S           &kp D    &kp F   &kp G            &kp INTERNATIONAL_5  &mt LEFT_ALT LA(TAB)  &kp LCTRL                   &kp LGUI   &kp BSPC             &kp INT4   &kp H    &kp J           &kp K     &kp L  &kp SEMI        &kp SQT
-     &kp LSHFT           &kp Z       &kp X           &kp C    &kp V   &kp B                          &none                 &none   &kp HOME   &none   &none  &kp PG_UP      &none                &none   &kp N    &kp M       &kp COMMA   &kp DOT  &kp FSLH      &kp RSHFT
-     &kp LG(S)  &kp LS(INSERT)  &kp C_MENU  &kp LANGUAGE_2  &kp F13                                  &mo 2      &mt LSHIFT SPACE    &kp END                  &kp PG_DN  &kp ENTER     &mt LSHIFT SPACE          &kp F14  &kp LANGUAGE_1  &kp LBKT  &kp RBKT  &kp BACKSLASH
+     &kp GRAVE          &kp N1      &kp N2          &kp N3   &kp N4  &kp N5                  &tog 1                                                                         &kp LA(PRINTSCREEN)  &kp N6   &kp N7          &kp N8    &kp N9    &kp N0      &kp MINUS
+       &kp TAB           &kp Q       &kp W           &kp E    &kp R   &kp T            &kp LS(HOME)                                                                                 &kp LS(END)   &kp Y    &kp U           &kp I     &kp O     &kp P      &kp EQUAL
+ &mt LCTRL ESC           &kp A       &kp S           &kp D    &kp F   &kp G             &kp LA(F11)  &mt LEFT_ALT LA(TAB)  &kp LCTRL                   &kp LGUI   &kp BSPC          &kp LA(F12)   &kp H    &kp J           &kp K     &kp L  &kp SEMI        &kp SQT
+     &kp LSHFT           &kp Z       &kp X           &kp C    &kp V   &kp B                   &none                 &none   &kp HOME   &none   &none  &kp PG_UP      &none                &none   &kp N    &kp M       &kp COMMA   &kp DOT  &kp FSLH      &kp RSHFT
+     &kp LG(S)  &kp LS(INSERT)  &kp C_MENU  &kp LANGUAGE_2  &kp F13                           &mo 2      &mt LSHIFT SPACE    &kp END                  &kp PG_DN  &kp ENTER     &mt LSHIFT SPACE          &kp F14  &kp LANGUAGE_1  &kp LBKT  &kp RBKT  &kp BACKSLASH
             >;
         };
 
